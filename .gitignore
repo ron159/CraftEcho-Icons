@@ -91,6 +91,7 @@ proguard/
 /projectFilesBackup
 /reports
 /report
+:memory:
 
 app/release
 .project

@@ -2116,7 +2116,7 @@
     <item name="计算器" drawable="icon63e3d284" />
 
 
-    <item name="YouTube Music" drawable="icon9262c3f6" />
+    <item name="YouTube Music" drawable="icon_youtube_music" />
 
 
     <item name="Google Play 游戏" drawable="icon5a44aa2d" />
@@ -4619,7 +4619,7 @@
     <item name="春秋航空" drawable="iconadecb7cc" />
 
 
-    <item name="Copilot" drawable="icond462e2a8" />
+    <item name="Copilot" drawable="icon_microsoft_copilot" />
 
 
     <item name="Adidas" drawable="iconbfc734d0" />
@@ -5787,4 +5787,11 @@
     <item name="RustDesk" drawable="icon_rustdesk" />
     <item name="Google Photos" drawable="icon_google_photos" />
     <item name="Meerkat Reader" drawable="icon_meerkat_reader" />
+    <item name="PiliPlus" drawable="icon_piliplus" />
+    <item name="Edge Beta" drawable="icon_edge_beta" />
+    <item name="FluxDO" drawable="icon_fluxdo" />
+    <item name="看天" drawable="icon_weahunter" />
+    <item name="Strava" drawable="icon_strava" />
+    <item name="iGPSPORT Ride" drawable="icon_igpsport" />
+    <item name="Reqable" drawable="icon_reqable" />
 </resources>

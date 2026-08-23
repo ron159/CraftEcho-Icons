@@ -4268,7 +4268,8 @@
     <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="icon63e3d284" />
 
     <!--YouTube Music-->
-    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="icon9262c3f6" />
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="icon_youtube_music" />
+    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="icon_youtube_music" />
 
     <!--Google Play 游戏-->
     <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="icon5a44aa2d" />
@@ -8286,4 +8287,33 @@
     <item component="ComponentInfo{com.capyreader.app/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
     <item component="ComponentInfo{com.capyreader.app.debug/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
     <item component="ComponentInfo{com.capyreader.app.nightly/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
+
+    <!--PiliPlus-->
+    <item component="ComponentInfo{com.example.piliplus/com.example.piliplus.MainActivity}" drawable="icon_piliplus" />
+    <item component="ComponentInfo{com.example.piliplus.debug/com.example.piliplus.MainActivity}" drawable="icon_piliplus" />
+    <item component="ComponentInfo{com.example.piliplus.dev/com.example.piliplus.MainActivity}" drawable="icon_piliplus" />
+
+    <!--Edge Beta-->
+    <item component="ComponentInfo{com.microsoft.emmx.beta/com.microsoft.ruby.Main}" drawable="icon_edge_beta" />
+
+    <!--FluxDO-->
+    <item component="ComponentInfo{com.github.lingyan000.fluxdo/com.github.lingyan000.fluxdo.DefaultIcon}" drawable="icon_fluxdo" />
+    <item component="ComponentInfo{com.github.lingyan000.fluxdo/com.github.lingyan000.fluxdo.ModernIcon}" drawable="icon_fluxdo" />
+    <item component="ComponentInfo{com.github.lingyan000.fluxdo/com.github.lingyan000.fluxdo.MainActivity}" drawable="icon_fluxdo" />
+
+    <!--看天-->
+    <item component="ComponentInfo{com.weahunter.kantian/com.weahunter.kantian.ui.StartPageActivity}" drawable="icon_weahunter" />
+
+    <!--Microsoft Copilot-->
+    <item component="ComponentInfo{com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity}" drawable="icon_microsoft_copilot" />
+    <item component="ComponentInfo{com.microsoft.copilot/com.microsoft.copilotn.MainActivity}" drawable="icon_microsoft_copilot" />
+
+    <!--Strava-->
+    <item component="ComponentInfo{com.strava/com.strava.SplashActivity}" drawable="icon_strava" />
+
+    <!--iGPSPORT Ride-->
+    <item component="ComponentInfo{com.qiwu.worldwide.ride/com.igpsport.globalapp.activity.v3.SplashActivity}" drawable="icon_igpsport" />
+
+    <!--Reqable-->
+    <item component="ComponentInfo{com.reqable.android/com.reqable.android.MainActivity}" drawable="icon_reqable" />
 </resources>

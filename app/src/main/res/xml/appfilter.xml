@@ -3005,7 +3005,7 @@
     <item component="ComponentInfo{com.samsung.android.themedesigner/com.samsung.android.themedesigner.SplashActivity}" drawable="icon532251c2" />
 
     <!--相册-->
-    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="iconeabdbecf" />
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="icon_google_photos" />
 
     <!--三星生活助手-->
     <item component="ComponentInfo{com.samsung.android.app.sreminder/com.samsung.android.app.sreminder.SReminderActivity}" drawable="icon27d5eada" />
@@ -8251,4 +8251,39 @@
     <!--Longbridge-->
     <item component="ComponentInfo{global.longbridge.app.android/global.longbridge.android.LaunchActivity}" drawable="icon_longbridge" />
     <item component="ComponentInfo{global.longbridge.sg.android/global.longbridge.android.LaunchActivity}" drawable="icon_longbridge" />
+
+    <!--AntennaPod-->
+    <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="icon_antennapod" />
+    <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="icon_antennapod" />
+
+    <!--极空间-->
+    <item component="ComponentInfo{com.zentraedi.zspace/com.zentraedi.zspace.activity.SplashActivity}" drawable="icon_zspace" />
+
+    <!--Windy-->
+    <item component="ComponentInfo{com.windyty.android/com.windyty.android.Standard}" drawable="icon_windy" />
+    <item component="ComponentInfo{com.windyty.android/com.windyty.android.MainActivity}" drawable="icon_windy" />
+    <item component="ComponentInfo{com.windyty.android/com.windyty.StartActivity}" drawable="icon_windy" />
+
+    <!--Bitwarden-->
+    <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="icon_bitwarden" />
+    <item component="ComponentInfo{com.x8bit.bitwarden.beta/com.x8bit.bitwarden.MainActivity}" drawable="icon_bitwarden" />
+
+    <!--1Password-->
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.app.StartActivity}" drawable="icon_onepassword" />
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.SplashActivity}" drawable="icon_onepassword" />
+    <item component="ComponentInfo{com.onepassword.android/com.onepassword.android.activities.SplashActivity}" drawable="icon_onepassword" />
+
+    <!--TeamTalk-->
+    <item component="ComponentInfo{com.teamtalk.im/com.kdweibo.android.ui.activity.StartSubprocessActivity}" drawable="icon_teamtalk" />
+
+    <!--Komi Store-->
+    <item component="ComponentInfo{zed.rainxch.githubstore/zed.rainxch.githubstore.MainActivity}" drawable="icon_komi_store" />
+
+    <!--RustDesk-->
+    <item component="ComponentInfo{com.carriez.flutter_hbb/com.carriez.flutter_hbb.MainActivity}" drawable="icon_rustdesk" />
+
+    <!--Meerkat Reader-->
+    <item component="ComponentInfo{com.capyreader.app/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
+    <item component="ComponentInfo{com.capyreader.app.debug/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
+    <item component="ComponentInfo{com.capyreader.app.nightly/com.capyreader.app.MainActivity}" drawable="icon_meerkat_reader" />
 </resources>

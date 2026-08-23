@@ -5777,4 +5777,14 @@
     <item name="风鸟" drawable="icon1b970f15" />
 
     <item name="Longbridge" drawable="icon_longbridge" />
+    <item name="AntennaPod" drawable="icon_antennapod" />
+    <item name="极空间" drawable="icon_zspace" />
+    <item name="Windy" drawable="icon_windy" />
+    <item name="Bitwarden" drawable="icon_bitwarden" />
+    <item name="1Password" drawable="icon_onepassword" />
+    <item name="TeamTalk" drawable="icon_teamtalk" />
+    <item name="Komi Store" drawable="icon_komi_store" />
+    <item name="RustDesk" drawable="icon_rustdesk" />
+    <item name="Google Photos" drawable="icon_google_photos" />
+    <item name="Meerkat Reader" drawable="icon_meerkat_reader" />
 </resources>

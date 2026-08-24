@@ -8313,7 +8313,16 @@
 
     <!--iGPSPORT Ride-->
     <item component="ComponentInfo{com.qiwu.worldwide.ride/com.igpsport.globalapp.activity.v3.SplashActivity}" drawable="icon_igpsport" />
+    <item component="ComponentInfo{com.igpsport.igpsportandroid/com.igpsport.globalapp.activity.v3.SplashActivity}" drawable="icon_igpsport" />
 
     <!--Reqable-->
     <item component="ComponentInfo{com.reqable.android/com.reqable.android.MainActivity}" drawable="icon_reqable" />
+
+    <!--GPSLogger-->
+    <item component="ComponentInfo{com.mendhak.gpslogger/com.mendhak.gpslogger.GpsMainActivity}" drawable="icon_gpslogger" />
+    <item component="ComponentInfo{com.mendhak.gpslogger.debug/com.mendhak.gpslogger.GpsMainActivity}" drawable="icon_gpslogger" />
+
+    <!--qBitController-->
+    <item component="ComponentInfo{dev.bartuzen.qbitcontroller/dev.bartuzen.qbitcontroller.MainActivity}" drawable="icon_qbitcontroller" />
+    <item component="ComponentInfo{dev.bartuzen.qbitcontroller.debug/dev.bartuzen.qbitcontroller.MainActivity}" drawable="icon_qbitcontroller" />
 </resources>

@@ -5794,4 +5794,6 @@
     <item name="Strava" drawable="icon_strava" />
     <item name="iGPSPORT Ride" drawable="icon_igpsport" />
     <item name="Reqable" drawable="icon_reqable" />
+    <item name="GPSLogger" drawable="icon_gpslogger" />
+    <item name="qBitController" drawable="icon_qbitcontroller" />
 </resources>

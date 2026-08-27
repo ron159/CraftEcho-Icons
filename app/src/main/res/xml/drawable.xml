@@ -4037,7 +4037,7 @@
     <item name="中信证券" drawable="icon55bc2624" />
 
 
-    <item name="Chat GPT" drawable="icon829b0aa7" />
+    <item name="ChatGPT" drawable="icon_chatgpt" />
 
 
     <item name="Grab" drawable="icon0a23cb0d" />
@@ -4163,7 +4163,7 @@
     <item name="通义" drawable="iconf7d324be" />
 
 
-    <item name="Gemini" drawable="icon63fd5ba9" />
+    <item name="Gemini" drawable="icon_gemini" />
 
 
     <item name="Clash Meta" drawable="icon3073cc8c" />
@@ -4307,7 +4307,7 @@
     <item name="藏宝阁" drawable="icon659a810c" />
 
 
-    <item name="DeepSeek" drawable="icon321bdb7a" />
+    <item name="DeepSeek" drawable="icon_deepseek" />
 
 
     <item name="Geekbench 6" drawable="icon65d33aa7" />

@@ -2315,7 +2315,7 @@
     <item component="ComponentInfo{com.xjcheng.musictageditor/com.xjcheng.musictageditor.MainActivity}" drawable="icon11640920" />
 
     <!--Edge-->
-    <item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="icon1bce3543" />
+    <item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="icon_edge" />
 
     <!--爱作业-->
     <item component="ComponentInfo{ai.zuoye.app/com.stub.plugin.Stub01}" drawable="iconc9179305" />
@@ -8328,4 +8328,33 @@
     <!--qBitController-->
     <item component="ComponentInfo{dev.bartuzen.qbitcontroller/dev.bartuzen.qbitcontroller.MainActivity}" drawable="icon_qbitcontroller" />
     <item component="ComponentInfo{dev.bartuzen.qbitcontroller.debug/dev.bartuzen.qbitcontroller.MainActivity}" drawable="icon_qbitcontroller" />
+
+    <!--NagramXF-->
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.ui.LaunchActivity}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.DefaultIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.GoogleIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.ColorfulIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.DarkGreenIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.NeonIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.NielloIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.BlueIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.DarkBlueIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.BlurBlueIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.TelegramIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.PremiumIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.TurboIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.NoxIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.VintageIcon}" drawable="icon_nagramxf" />
+    <item component="ComponentInfo{fork.risin42.nagramx/org.telegram.messenger.AquaIcon}" drawable="icon_nagramxf" />
+
+    <!--Gemini Notebook / NotebookLM-->
+    <item component="ComponentInfo{com.google.android.apps.labs.language.tailwind/com.google.android.apps.labs.language.tailwind.MainActivityDev}" drawable="icon_google_notebook" />
+
+    <!--500px-->
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.viewer.main.RootActivity}" drawable="icon_500px" />
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.viewer.MainActivity}" drawable="icon_500px" />
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.main.MainActivityPhone}" drawable="icon_500px" />
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.login.LoginActivity}" drawable="icon_500px" />
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.ui.GridGalleryActivity}" drawable="icon_500px" />
+    <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.ui.PhotoGridActivity}" drawable="icon_500px" />
 </resources>

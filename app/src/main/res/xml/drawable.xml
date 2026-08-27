@@ -772,7 +772,7 @@
     <item name="音乐标签" drawable="icon11640920" />
 
 
-    <item name="Edge" drawable="icon1bce3543" />
+    <item name="Edge" drawable="icon_edge" />
 
 
     <item name="爱作业" drawable="iconc9179305" />
@@ -5797,4 +5797,7 @@
     <item name="Reqable" drawable="icon_reqable" />
     <item name="GPSLogger" drawable="icon_gpslogger" />
     <item name="qBitController" drawable="icon_qbitcontroller" />
+    <item name="NagramXF" drawable="icon_nagramxf" />
+    <item name="Gemini Notebook" drawable="icon_google_notebook" />
+    <item name="500px" drawable="icon_500px" />
 </resources>

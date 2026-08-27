@@ -1573,7 +1573,7 @@
     <item name="学习强国" drawable="icon68527b5c" />
 
 
-    <item name="To Do" drawable="icone0d9f633" />
+    <item name="Microsoft To Do" drawable="icon_microsoft_todo" />
 
 
     <item name="Alook" drawable="icon172362ec" />
@@ -5778,6 +5778,7 @@
 
     <item name="Longbridge" drawable="icon_longbridge" />
     <item name="AntennaPod" drawable="icon_antennapod" />
+    <item name="Solid Explorer" drawable="icon_solid_explorer" />
     <item name="极空间" drawable="icon_zspace" />
     <item name="Windy" drawable="icon_windy" />
     <item name="Bitwarden" drawable="icon_bitwarden" />

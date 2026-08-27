@@ -3457,8 +3457,8 @@
     <!--学习强国-->
     <item component="ComponentInfo{cn.xuexi.android/com.alibaba.android.rimet.biz.SplashActivity}" drawable="icon68527b5c" />
 
-    <!--To Do-->
-    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="icone0d9f633" />
+    <!--Microsoft To Do-->
+    <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="icon_microsoft_todo" />
 
     <!--Alook-->
     <item component="ComponentInfo{alook.browser/alook.browser.LauncherActivity}" drawable="icon172362ec" />
@@ -8256,6 +8256,9 @@
     <!--AntennaPod-->
     <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="icon_antennapod" />
     <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="icon_antennapod" />
+
+    <!--Solid Explorer-->
+    <item component="ComponentInfo{pl.solidexplorer2/pl.solidexplorer.SolidExplorer}" drawable="icon_solid_explorer" />
 
     <!--极空间-->
     <item component="ComponentInfo{com.zentraedi.zspace/com.zentraedi.zspace.activity.SplashActivity}" drawable="icon_zspace" />

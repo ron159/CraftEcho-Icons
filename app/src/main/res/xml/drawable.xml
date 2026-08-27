@@ -5789,7 +5789,7 @@
     <item name="Google Photos" drawable="icon_google_photos" />
     <item name="Meerkat Reader" drawable="icon_meerkat_reader" />
     <item name="PiliPlus" drawable="icon_piliplus" />
-    <item name="Edge Beta" drawable="icon_edge_beta" />
+    <item name="Edge Beta" drawable="icon_edge" />
     <item name="FluxDO" drawable="icon_fluxdo" />
     <item name="看天" drawable="icon_weahunter" />
     <item name="Strava" drawable="icon_strava" />
@@ -5800,4 +5800,9 @@
     <item name="NagramXF" drawable="icon_nagramxf" />
     <item name="Gemini Notebook" drawable="icon_google_notebook" />
     <item name="500px" drawable="icon_500px" />
+    <item name="FeedMe" drawable="icon_feedme" />
+    <item name="LibreTube" drawable="icon_libretube" />
+    <item name="Fog of World" drawable="icon_fog_of_world" />
+    <item name="Droid-ify" drawable="icon_droidify" />
+    <item name="Discord" drawable="icon_discord" />
 </resources>

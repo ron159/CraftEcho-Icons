@@ -8297,7 +8297,7 @@
     <item component="ComponentInfo{com.example.piliplus.dev/com.example.piliplus.MainActivity}" drawable="icon_piliplus" />
 
     <!--Edge Beta-->
-    <item component="ComponentInfo{com.microsoft.emmx.beta/com.microsoft.ruby.Main}" drawable="icon_edge_beta" />
+    <item component="ComponentInfo{com.microsoft.emmx.beta/com.microsoft.ruby.Main}" drawable="icon_edge" />
 
     <!--FluxDO-->
     <item component="ComponentInfo{com.github.lingyan000.fluxdo/com.github.lingyan000.fluxdo.DefaultIcon}" drawable="icon_fluxdo" />
@@ -8357,4 +8357,47 @@
     <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.login.LoginActivity}" drawable="icon_500px" />
     <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.ui.GridGalleryActivity}" drawable="icon_500px" />
     <item component="ComponentInfo{com.fivehundredpx.viewer/com.fivehundredpx.android.ui.PhotoGridActivity}" drawable="icon_500px" />
+
+    <!--FeedMe-->
+    <item component="ComponentInfo{com.seazon.feedme/com.seazon.feedme.ui.MainActivity}" drawable="icon_feedme" />
+    <item component="ComponentInfo{com.seazon.feedme/com.seazon.feedme.view.activity.ListActivity}" drawable="icon_feedme" />
+
+    <!--LibreTube-->
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.ui.activities.MainActivity}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.Default}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconGradient}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.DefaultLight}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconFire}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconFlame}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconShaped}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconTorch}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconLegacy}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube/com.github.libretube.IconBird}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.ui.activities.MainActivity}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.Default}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconGradient}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.DefaultLight}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconFire}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconFlame}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconShaped}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconTorch}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconLegacy}" drawable="icon_libretube" />
+    <item component="ComponentInfo{com.github.libretube.debug/com.github.libretube.IconBird}" drawable="icon_libretube" />
+
+    <!--Fog of World-->
+    <item component="ComponentInfo{com.ollix.fogofworld/com.ollix.fogofworld.MainActivity}" drawable="icon_fog_of_world" />
+    <item component="ComponentInfo{com.ollix.fogofworld/com.ollix.fogofworld.ui.MainActivity}" drawable="icon_fog_of_world" />
+    <item component="ComponentInfo{com.ollix.fogofworld/com.ollix.fogofworld.activities.MainActivity}" drawable="icon_fog_of_world" />
+    <item component="ComponentInfo{com.ollix.fogofworld/com.ollix.fogofworld.MapActivity}" drawable="icon_fog_of_world" />
+
+    <!--Droid-ify-->
+    <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="icon_droidify" />
+    <item component="ComponentInfo{com.looker.droidify.debug/com.looker.droidify.MainActivity}" drawable="icon_droidify" />
+
+    <!--Discord-->
+    <item component="ComponentInfo{com.discord/com.discord.MainActivity}" drawable="icon_discord" />
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="icon_discord" />
+    <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="icon_discord" />
+    <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="icon_discord" />
+    <item component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}" drawable="icon_discord" />
 </resources>

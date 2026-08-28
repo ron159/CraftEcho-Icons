@@ -2981,7 +2981,8 @@
     <item component="ComponentInfo{com.samsung.android.goodlock/com.samsung.android.goodlock.presentation.view.LaunchActivity}" drawable="icon669a0a01" />
 
     <!--LibChecker-->
-    <item component="ComponentInfo{com.absinthe.libchecker/com.absinthe.libchecker.ui.main.MainActivity}" drawable="iconfbc3ba2b" />
+    <item component="ComponentInfo{com.absinthe.libchecker/com.absinthe.libchecker.domain.home.ui.MainActivity}" drawable="icon_libchecker" />
+    <item component="ComponentInfo{com.absinthe.libchecker/com.absinthe.libchecker.ui.main.MainActivity}" drawable="icon_libchecker" />
 
     <!--桌面搜索-->
     <item component="ComponentInfo{com.samsung.android.app.searchwidget/com.samsung.android.app.searchwidget.ui.FeedsActivity}" drawable="icon29de8594" />
@@ -8400,4 +8401,26 @@
     <item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="icon_discord" />
     <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="icon_discord" />
     <item component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}" drawable="icon_discord" />
+
+    <!--PipePipe-->
+    <item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity}" drawable="icon_pipepipe" />
+    <item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced.debug/org.schabi.newpipe.MainActivity}" drawable="icon_pipepipe" />
+
+    <!--WiFiman-->
+    <item component="ComponentInfo{com.ubnt.usurvey/com.ubnt.usurvey.ui.app.splash.SplashActivity}" drawable="icon_wifiman" />
+    <item component="ComponentInfo{com.ubnt.usurvey/com.ubnt.usurvey.ui.splash.SplashActivity}" drawable="icon_wifiman" />
+
+    <!--FlClash-->
+    <item component="ComponentInfo{com.follow.clash/com.follow.clash.MainActivity}" drawable="icon_flclash" />
+    <item component="ComponentInfo{com.follow.clash.dev/com.follow.clash.MainActivity}" drawable="icon_flclash" />
+
+    <!--LocalSend-->
+    <item component="ComponentInfo{org.localsend.localsend_app/org.localsend.localsend_app.MainActivity}" drawable="icon_localsend" />
+    <item component="ComponentInfo{org.localsend.localsend_app.debug/org.localsend.localsend_app.MainActivity}" drawable="icon_localsend" />
+
+    <!--Obtainium-->
+    <item component="ComponentInfo{dev.imranr.obtainium/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
+    <item component="ComponentInfo{dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
+    <item component="ComponentInfo{dev.imranr.obtainium.debug/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
+    <item component="ComponentInfo{dev.imranr.obtainium.fdroid.debug/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
 </resources>

@@ -1240,7 +1240,7 @@
     <item name="Good Lock" drawable="icon669a0a01" />
 
 
-    <item name="LibChecker" drawable="iconfbc3ba2b" />
+    <item name="LibChecker" drawable="icon_libchecker" />
 
 
     <item name="桌面搜索" drawable="icon29de8594" />
@@ -5805,4 +5805,9 @@
     <item name="Fog of World" drawable="icon_fog_of_world" />
     <item name="Droid-ify" drawable="icon_droidify" />
     <item name="Discord" drawable="icon_discord" />
+    <item name="PipePipe" drawable="icon_pipepipe" />
+    <item name="WiFiman" drawable="icon_wifiman" />
+    <item name="FlClash" drawable="icon_flclash" />
+    <item name="LocalSend" drawable="icon_localsend" />
+    <item name="Obtainium" drawable="icon_obtainium" />
 </resources>

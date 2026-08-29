@@ -1370,10 +1370,10 @@
     <item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="iconb023f380" />
 
     <!--Telegram-->
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="icon52193d57" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="icon_telegram" />
 
     <!--Telegram-->
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="icon52193d57" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="icon_telegram" />
 
     <!--WPS Office-->
     <item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity}" drawable="iconba47dcda" />
@@ -1745,13 +1745,13 @@
     <item component="ComponentInfo{com.sdu.didi.psnger/com.didi.sdk.app.DidiLoadDexActivity}" drawable="icon_didi" />
 
     <!--Google-->
-    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="icon537f2928" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="icon_google" />
 
     <!--Google-->
-    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="icon537f2928" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="icon_google" />
 
     <!--Google-->
-    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher}" drawable="icon537f2928" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher}" drawable="icon_google" />
 
     <!--Instagram-->
     <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="icon6b69d976" />
@@ -3336,7 +3336,7 @@
     <item component="ComponentInfo{com.ldygo.qhzc/com.ldygo.qhzc.ui.home.HomeActivity}" drawable="iconb8bcc609" />
 
     <!--翻译-->
-    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="iconacf73e50" />
+    <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="icon_google_translate" />
 
     <!--红宝书词汇-->
     <item component="ComponentInfo{com.hongbaoshuapp/com.hongbaoshuapp.PrivacyActivity}" drawable="icon9367702c" />
@@ -3542,8 +3542,8 @@
     <!--GitHub-->
     <item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="icon9abdd86c" />
 
-    <!--Microsft Outlook-->
-    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="iconb838ea94" />
+    <!--Microsoft Outlook-->
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="icon_outlook" />
 
     <!--pixiv-->
     <item component="ComponentInfo{jp.pxv.android/jp.pxv.android.activity.RoutingActivity}" drawable="icon289d7dbb" />
@@ -8405,6 +8405,12 @@
     <!--PipePipe-->
     <item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced/org.schabi.newpipe.MainActivity}" drawable="icon_pipepipe" />
     <item component="ComponentInfo{InfinityLoop1309.NewPipeEnhanced.debug/org.schabi.newpipe.MainActivity}" drawable="icon_pipepipe" />
+
+    <!--V2Fun-->
+    <item component="ComponentInfo{com.liaoliao666.v2ex/com.liaoliao666.v2ex.MainActivity}" drawable="icon_v2fun" />
+
+    <!--Sony Creators' App-->
+    <item component="ComponentInfo{jp.co.sony.ips.portalapp/jp.co.sony.ips.portalapp.welcome.WelcomeActivity}" drawable="icon_creators_app" />
 
     <!--WiFiman-->
     <item component="ComponentInfo{com.ubnt.usurvey/com.ubnt.usurvey.ui.app.splash.SplashActivity}" drawable="icon_wifiman" />

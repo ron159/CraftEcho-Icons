@@ -320,7 +320,7 @@
     <item name="Twitter" drawable="iconb023f380" />
 
 
-    <item name="Telegram" drawable="icon52193d57" />
+    <item name="Telegram" drawable="icon_telegram" />
 
 
     <item name="WPS Office" drawable="iconba47dcda" />
@@ -491,7 +491,7 @@
     <item name="滴滴出行" drawable="icon_didi" />
 
 
-    <item name="Google" drawable="icon537f2928" />
+    <item name="Google" drawable="icon_google" />
 
 
     <item name="Instagram" drawable="icon6b69d976" />
@@ -1474,7 +1474,7 @@
     <item name="联动云租车" drawable="iconb8bcc609" />
 
 
-    <item name="翻译" drawable="iconacf73e50" />
+    <item name="Google Translate" drawable="icon_google_translate" />
 
 
     <item name="红宝书词汇" drawable="icon9367702c" />
@@ -1654,7 +1654,7 @@
     <item name="GitHub" drawable="icon9abdd86c" />
 
 
-    <item name="Microsft Outlook" drawable="iconb838ea94" />
+    <item name="Microsoft Outlook" drawable="icon_outlook" />
 
 
     <item name="pixiv" drawable="icon289d7dbb" />
@@ -5806,6 +5806,8 @@
     <item name="Droid-ify" drawable="icon_droidify" />
     <item name="Discord" drawable="icon_discord" />
     <item name="PipePipe" drawable="icon_pipepipe" />
+    <item name="V2Fun" drawable="icon_v2fun" />
+    <item name="Sony Creators' App" drawable="icon_creators_app" />
     <item name="WiFiman" drawable="icon_wifiman" />
     <item name="FlClash" drawable="icon_flclash" />
     <item name="LocalSend" drawable="icon_localsend" />

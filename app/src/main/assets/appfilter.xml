@@ -8429,4 +8429,35 @@
     <item component="ComponentInfo{dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
     <item component="ComponentInfo{dev.imranr.obtainium.debug/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
     <item component="ComponentInfo{dev.imranr.obtainium.fdroid.debug/dev.imranr.obtainium.MainActivity}" drawable="icon_obtainium" />
+
+    <!--Stash-->
+    <item component="ComponentInfo{ws.stash.app/ws.stash.app.MainActivity}" drawable="icon_stash" />
+
+    <!--MemoFlow-->
+    <item component="ComponentInfo{com.memoflow.hzc073/com.memoflow.hzc073.MainActivity}" drawable="icon_memoflow" />
+    <item component="ComponentInfo{com.memoflow.hzc073.pro/com.memoflow.hzc073.MainActivity}" drawable="icon_memoflow" />
+
+    <!--WireGuard-->
+    <item component="ComponentInfo{com.wireguard.android/com.wireguard.android.activity.MainActivity}" drawable="icon_wireguard" />
+    <item component="ComponentInfo{com.wireguard.android.debug/com.wireguard.android.activity.MainActivity}" drawable="icon_wireguard" />
+
+    <!--WG Tunnel-->
+    <item component="ComponentInfo{com.zaneschepke.wireguardautotunnel/com.zaneschepke.wireguardautotunnel.MainActivity}" drawable="icon_wgtunnel" />
+    <item component="ComponentInfo{com.zaneschepke.wireguardautotunnel.debug/com.zaneschepke.wireguardautotunnel.MainActivity}" drawable="icon_wgtunnel" />
+    <item component="ComponentInfo{com.zaneschepke.wireguardautotunnel.nightly/com.zaneschepke.wireguardautotunnel.MainActivity}" drawable="icon_wgtunnel" />
+
+    <!--RethinkDNS-->
+    <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.activity.LauncherAliasAppLock}" drawable="icon_rethinkdns" />
+    <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.LauncherAliasHome}" drawable="icon_rethinkdns" />
+    <item component="ComponentInfo{com.celzero.bravedns.alpha/com.celzero.bravedns.ui.activity.LauncherAliasAppLock}" drawable="icon_rethinkdns" />
+    <item component="ComponentInfo{com.celzero.bravedns.alpha/com.celzero.bravedns.ui.LauncherAliasHome}" drawable="icon_rethinkdns" />
+
+    <!--Canta-->
+    <item component="ComponentInfo{io.github.samolego.canta/io.github.samolego.canta.MainActivity}" drawable="icon_canta" />
+
+    <!--Blip-->
+    <item component="ComponentInfo{net.blip.android/net.blip.android.MainActivity}" drawable="icon_blip" />
+
+    <!--Nodyssey-->
+    <item component="ComponentInfo{io.github.nodyssey/io.github.nodyssey.MainActivity}" drawable="icon_nodyssey" />
 </resources>

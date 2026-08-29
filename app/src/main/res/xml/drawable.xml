@@ -5812,4 +5812,12 @@
     <item name="FlClash" drawable="icon_flclash" />
     <item name="LocalSend" drawable="icon_localsend" />
     <item name="Obtainium" drawable="icon_obtainium" />
+    <item name="Stash" drawable="icon_stash" />
+    <item name="MemoFlow" drawable="icon_memoflow" />
+    <item name="WireGuard" drawable="icon_wireguard" />
+    <item name="WG Tunnel" drawable="icon_wgtunnel" />
+    <item name="RethinkDNS" drawable="icon_rethinkdns" />
+    <item name="Canta" drawable="icon_canta" />
+    <item name="Blip" drawable="icon_blip" />
+    <item name="Nodyssey" drawable="icon_nodyssey" />
 </resources>

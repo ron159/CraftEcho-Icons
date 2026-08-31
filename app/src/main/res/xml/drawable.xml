@@ -2119,7 +2119,7 @@
     <item name="YouTube Music" drawable="icon_youtube_music" />
 
 
-    <item name="Google Play 游戏" drawable="icon5a44aa2d" />
+    <item name="Google Play 游戏" drawable="icon_google_play_games" />
 
 
     <item name="环聊" drawable="iconf5d29df1" />
@@ -4058,7 +4058,7 @@
     <item name="文心一言" drawable="icon747a0cae" />
 
 
-    <item name="豆包" drawable="iconfa006c91" />
+    <item name="豆包" drawable="icon_doubao" />
 
 
     <item name="特来电" drawable="icon21a5ca63" />
@@ -4160,7 +4160,7 @@
     <item name="雅迪智行" drawable="icone7ba6665" />
 
 
-    <item name="通义" drawable="iconf7d324be" />
+    <item name="千问" drawable="icon_qwen" />
 
 
     <item name="Gemini" drawable="icon_gemini" />
@@ -5820,4 +5820,7 @@
     <item name="Canta" drawable="icon_canta" />
     <item name="Blip" drawable="icon_blip" />
     <item name="Nodyssey" drawable="icon_nodyssey" />
+    <item name="E-TUBE PROJECT Cyclist" drawable="icon_etube" />
+    <item name="Omnivore" drawable="icon_omnivore" />
+    <item name="说点啥" drawable="icon_say_something" />
 </resources>

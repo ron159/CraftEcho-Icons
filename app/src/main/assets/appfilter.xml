@@ -4273,10 +4273,10 @@
     <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="icon_youtube_music" />
 
     <!--Google Play 游戏-->
-    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="icon5a44aa2d" />
+    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="icon_google_play_games" />
 
     <!--Google Play 游戏-->
-    <item component="ComponentInfo{com.google.android.play.games/com.google.android.apps.play.games.features.gamefolder.appdrawer.GameFolderAppDrawerActivity}" drawable="icon5a44aa2d" />
+    <item component="ComponentInfo{com.google.android.play.games/com.google.android.apps.play.games.features.gamefolder.appdrawer.GameFolderAppDrawerActivity}" drawable="icon_google_play_games" />
 
     <!--环聊-->
     <item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="iconf5d29df1" />
@@ -7066,10 +7066,13 @@
     <item component="ComponentInfo{com.baidu.newapp/com.baidu.newapp.splash.SplashActivity}" drawable="icon747a0cae" />
 
     <!--豆包-->
-    <item component="ComponentInfo{com.larus.nova/com.larus.bmhome.MainActivity}" drawable="iconfa006c91" />
+    <item component="ComponentInfo{com.larus.nova/com.larus.bmhome.MainActivity}" drawable="icon_doubao" />
 
     <!--豆包-->
-    <item component="ComponentInfo{com.larus.nova/com.larus.home.impl.alias.AliasActivity1}" drawable="iconfa006c91" />
+    <item component="ComponentInfo{com.larus.nova/com.larus.home.impl.alias.AliasActivity1}" drawable="icon_doubao" />
+
+    <!--豆包-->
+    <item component="ComponentInfo{com.larus.nova/com.larus.home.impl.alias.AliasActivity3}" drawable="icon_doubao" />
 
     <!--特来电-->
     <item component="ComponentInfo{com.qdtevc.teld.app/com.qdtevc.teld.app.activity.StartActivity}" drawable="icon21a5ca63" />
@@ -7176,11 +7179,14 @@
     <!--雅迪智行-->
     <item component="ComponentInfo{com.yadea.smartmoto/com.yadea.smartmoto.main.view.normal_icon}" drawable="icone7ba6665" />
 
-    <!--通义-->
-    <item component="ComponentInfo{com.aliyun.tongyi/com.aliyun.tongyi.MainActivity}" drawable="iconf7d324be" />
+    <!--千问-->
+    <item component="ComponentInfo{com.aliyun.tongyi/com.aliyun.tongyi.MainActivity}" drawable="icon_qwen" />
 
-    <!--通义-->
-    <item component="ComponentInfo{com.aliyun.tongyi/com.aliyun.tongyi.SplashActivity}" drawable="iconf7d324be" />
+    <!--千问-->
+    <item component="ComponentInfo{com.aliyun.tongyi/com.aliyun.tongyi.SplashActivity}" drawable="icon_qwen" />
+
+    <!--千问-->
+    <item component="ComponentInfo{com.aliyun.tongyi/com.ucpro.MainActivity}" drawable="icon_qwen" />
 
     <!--Gemini-->
     <item component="ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity}" drawable="icon_gemini" />
@@ -8257,6 +8263,8 @@
     <!--AntennaPod-->
     <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="icon_antennapod" />
     <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="icon_antennapod" />
+    <item component="ComponentInfo{de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.SplashActivity}" drawable="icon_antennapod" />
+    <item component="ComponentInfo{de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.MainActivity}" drawable="icon_antennapod" />
 
     <!--Solid Explorer-->
     <item component="ComponentInfo{pl.solidexplorer2/pl.solidexplorer.SolidExplorer}" drawable="icon_solid_explorer" />
@@ -8460,4 +8468,14 @@
 
     <!--Nodyssey-->
     <item component="ComponentInfo{io.github.nodyssey/io.github.nodyssey.MainActivity}" drawable="icon_nodyssey" />
+
+    <!--E-TUBE PROJECT Cyclist-->
+    <item component="ComponentInfo{com.shimano.etubeprojectmobile.droid.phone/com.shimano.etubeproject.presentation.main.MainActivity}" drawable="icon_etube" />
+
+    <!--Omnivore-->
+    <item component="ComponentInfo{app.omnivore.omnivore/app.omnivore.omnivore.MainActivity}" drawable="icon_omnivore" />
+    <item component="ComponentInfo{app.omnivore.omnivore.debug/app.omnivore.omnivore.MainActivity}" drawable="icon_omnivore" />
+
+    <!--说点啥-->
+    <item component="ComponentInfo{com.brycewg.asrkb/com.brycewg.asrkb.ui.SettingsActivity}" drawable="icon_say_something" />
 </resources>

@@ -6082,7 +6082,7 @@
     <item component="ComponentInfo{com.huawei.meetime/com.huawei.meetime.MainMenuActivity}" drawable="icon61102a19" />
 
     <!--微信读书-->
-    <item component="ComponentInfo{com.tencent.weread/com.tencent.weread.LauncherActivity}" drawable="icon0dc46a44" />
+    <item component="ComponentInfo{com.tencent.weread/com.tencent.weread.LauncherActivity}" drawable="icon_weread" />
 
     <!--曹操出行-->
     <item component="ComponentInfo{cn.caocaokeji.user/cn.caocaokeji.compat.load.LoadActivity}" drawable="iconf9a472a7" />
@@ -8478,4 +8478,22 @@
 
     <!--说点啥-->
     <item component="ComponentInfo{com.brycewg.asrkb/com.brycewg.asrkb.ui.SettingsActivity}" drawable="icon_say_something" />
+
+    <!--吉利汽车-->
+    <item component="ComponentInfo{com.geely.consumer/com.geely.consumer.main.ui.activity.SplashActivity}" drawable="icon_geely_auto" />
+
+    <!--知识星球-->
+    <item component="ComponentInfo{com.unnoo.quan/com.unnoo.quan.activities.StartActivity}" drawable="icon_zsxq" />
+
+    <!--海信爱家-->
+    <item component="ComponentInfo{com.hisense.ms.fly2tv/com.hisense.ms.fly2tv.ui.activity.GuideActivity}" drawable="icon_hisense_aijia" />
+
+    <!--Epson Smart Panel-->
+    <item component="ComponentInfo{com.epson.epsonsmart/com.epson.epsonsmart.controller.splash.SplashActivity}" drawable="icon_epson_smart_panel" />
+
+    <!--Muse from Meta-->
+    <item component="ComponentInfo{com.facebook.aura/com.facebook.aura.AuraMainActivity}" drawable="icon_muse_meta" />
+
+    <!--Threads-->
+    <item component="ComponentInfo{com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity}" drawable="icon_threads" />
 </resources>

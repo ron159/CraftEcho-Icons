@@ -3240,7 +3240,7 @@
     <item name="畅连" drawable="icon61102a19" />
 
 
-    <item name="微信读书" drawable="icon0dc46a44" />
+    <item name="微信读书" drawable="icon_weread" />
 
 
     <item name="曹操出行" drawable="iconf9a472a7" />
@@ -5823,4 +5823,10 @@
     <item name="E-TUBE PROJECT Cyclist" drawable="icon_etube" />
     <item name="Omnivore" drawable="icon_omnivore" />
     <item name="说点啥" drawable="icon_say_something" />
+    <item name="吉利汽车" drawable="icon_geely_auto" />
+    <item name="知识星球" drawable="icon_zsxq" />
+    <item name="海信爱家" drawable="icon_hisense_aijia" />
+    <item name="Epson Smart Panel" drawable="icon_epson_smart_panel" />
+    <item name="Muse from Meta" drawable="icon_muse_meta" />
+    <item name="Threads" drawable="icon_threads" />
 </resources>

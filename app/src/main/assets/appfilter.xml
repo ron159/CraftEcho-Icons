@@ -6417,8 +6417,14 @@
     <!--掌厨-->
     <item component="ComponentInfo{com.gold.palm.kitchen/com.gold.palm.kitchen.ui.guide.ZSplashActivity}" drawable="icon0a5cb321" />
 
-    <!--Google pay-->
-    <item component="ComponentInfo{com.com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity}" drawable="iconed610083" />
+    <!--Google Wallet-->
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.GooglePayActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.home.HomeActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.growth.migration.OldLauncherActivity}" drawable="iconed610083" />
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="iconed610083" />
 
     <!--Google 地球-->
     <item component="ComponentInfo{com.google.earth/com.google.android.apps.earth.EarthActivity}" drawable="icon32108bdd" />
@@ -8496,4 +8502,86 @@
 
     <!--Threads-->
     <item component="ComponentInfo{com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity}" drawable="icon_threads" />
+
+    <!--Amazon Shopping-->
+    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="icon74e3098d" />
+
+    <!--Uber-->
+    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="iconbf90500d" />
+    <item component="ComponentInfo{com.ubercab/com.ubercab.UBUberActivity}" drawable="iconbf90500d" />
+
+    <!--McDonald's-->
+    <item component="ComponentInfo{com.mcdonalds.app/com.mcdonalds.app.startup.SplashActivity}" drawable="icon0d339c70" />
+    <item component="ComponentInfo{com.mcdonalds.app/com.mcdonalds.mcdcoreapp.common.activity.SplashActivity}" drawable="icon0d339c70" />
+
+    <!--Prime Video-->
+    <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="icon0629f8c4" />
+
+    <!--Grok-->
+    <item component="ComponentInfo{ai.x.grok/ai.x.grok.main.GrokActivity}" drawable="icon2ed862b2" />
+
+    <!--Proton VPN-->
+    <item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingActivity}" drawable="icon0d79f53b" />
+    <item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingDark}" drawable="icon0d79f53b" />
+    <item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingRetro}" drawable="icon0d79f53b" />
+    <item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="icon0d79f53b" />
+
+    <!--TikTok Pro - Events-->
+    <item component="ComponentInfo{com.ss.android.ugc.tiktok.pro/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="icon75f787bb" />
+
+    <!--TikTok Lite - Faster TikTok-->
+    <item component="ComponentInfo{com.tiktok.lite.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="icon75f787bb" />
+
+    <!--CapCut - Video Editor-->
+    <item component="ComponentInfo{com.lemon.lvoverseas/com.vega.launcher.precondition.PreInstallConfirmActivity}" drawable="icon761fe3e3" />
+    <item component="ComponentInfo{com.lemon.lvoverseas/com.vega.main.MainActivity}" drawable="icon761fe3e3" />
+
+    <!--Claude-->
+    <item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="icon_claude" />
+
+    <!--PikPak-->
+    <item component="ComponentInfo{com.pikcloud.pikpak/com.pikcloud.app.SplashActivity}" drawable="icon_pikpak" />
+
+    <!--Binance-->
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="icon_binance" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="icon_binance" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity}" drawable="icon_binance" />
+    <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.MainActivity}" drawable="icon_binance" />
+    <item component="ComponentInfo{com.binance.dev/com.eaas.launcher.activities.main.MainActivity}" drawable="icon_binance" />
+
+    <!--Patreon-->
+    <item component="ComponentInfo{com.patreon.android/com.patreon.android.ui.shared.LauncherActivity}" drawable="icon_patreon" />
+    <item component="ComponentInfo{com.patreon.android/com.patreon.app.RootActivity}" drawable="icon_patreon" />
+    <item component="ComponentInfo{com.patreon.android/com.patreon.android.screens.launcher.LauncherActivity}" drawable="icon_patreon" />
+
+    <!--NordVPN-->
+    <item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.mobile.MainActivity}" drawable="icon_nordvpn" />
+    <item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.MainActivity}" drawable="icon_nordvpn" />
+
+    <!--Blackmagic Camera-->
+    <item component="ComponentInfo{com.blackmagicdesign.android.blackmagiccam/com.blackmagicdesign.android.blackmagiccam.ui.MainActivity}" drawable="icon_blackmagic_camera" />
+
+    <!--Perplexity-->
+    <item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity}" drawable="icon_perplexity" />
+
+    <!--MEGA-->
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.appstate.MegaActivity}" drawable="icon_mega" />
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.presentation.login.LoginActivity}" drawable="icon_mega" />
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.LauncherActivity}" drawable="icon_mega" />
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivityLollipop}" drawable="icon_mega" />
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivity}" drawable="icon_mega" />
+    <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.main.ManagerActivity}" drawable="icon_mega" />
+
+    <!--Klook-->
+    <item component="ComponentInfo{com.klook/com.klooklib.MainActivity}" drawable="icon_klook" />
+
+    <!--HelloTalk-->
+    <item component="ComponentInfo{com.hellotalk/com.hellotalk.lib.main.launch.ui.LaunchActivity}" drawable="icon_hellotalk" />
+    <item component="ComponentInfo{com.hellotalk/com.hellotalk.lib.temp.htx.modules.sign.ui.LaunchActivity}" drawable="icon_hellotalk" />
+
+    <!--Tor Browser-->
+    <item component="ComponentInfo{org.torproject.torbrowser/org.torproject.torbrowser.App}" drawable="icon_tor_browser" />
+
+    <!--Yandex Browser-->
+    <item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="icon_yandex_browser" />
 </resources>

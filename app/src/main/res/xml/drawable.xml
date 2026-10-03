@@ -3555,7 +3555,7 @@
     <item name="掌厨" drawable="icon0a5cb321" />
 
 
-    <item name="Google pay" drawable="iconed610083" />
+    <item name="Google Wallet" drawable="iconed610083" />
 
 
     <item name="Google 地球" drawable="icon32108bdd" />
@@ -5829,4 +5829,16 @@
     <item name="Epson Smart Panel" drawable="icon_epson_smart_panel" />
     <item name="Muse from Meta" drawable="icon_muse_meta" />
     <item name="Threads" drawable="icon_threads" />
+    <item name="Claude" drawable="icon_claude" />
+    <item name="PikPak" drawable="icon_pikpak" />
+    <item name="Binance" drawable="icon_binance" />
+    <item name="Patreon" drawable="icon_patreon" />
+    <item name="NordVPN" drawable="icon_nordvpn" />
+    <item name="Blackmagic Camera" drawable="icon_blackmagic_camera" />
+    <item name="Perplexity" drawable="icon_perplexity" />
+    <item name="MEGA" drawable="icon_mega" />
+    <item name="Klook" drawable="icon_klook" />
+    <item name="HelloTalk" drawable="icon_hellotalk" />
+    <item name="Tor Browser" drawable="icon_tor_browser" />
+    <item name="Yandex Browser" drawable="icon_yandex_browser" />
 </resources>

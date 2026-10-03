@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.20" />
+    <item text="Added icons for PikPak, Binance, Patreon, NordVPN, Blackmagic Camera, Perplexity, MEGA, Klook, HelloTalk, Tor Browser, and Yandex Browser" />
+    <item text="Release builds now use a persistent verified signing certificate for future app updates" />
+    <version title="v1.0.19" />
+    <item text="Added a handcrafted Claude icon" />
+    <item text="Added icon support for Amazon Shopping, Uber, McDonald's, Prime Video, Grok, Proton VPN, Google Wallet, TikTok Pro, TikTok Lite, and CapCut" />
+    <item text="Fixed Google Wallet launcher matching" />
     <version title="v1.0.18" />
     <item text="Added Geely Auto, Knowledge Planet, Hisense Aijia, Epson Smart Panel, Muse from Meta, and Threads icons" />
     <item text="Updated Railway 12306 and WeRead icons" />

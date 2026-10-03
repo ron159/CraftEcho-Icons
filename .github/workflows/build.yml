@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   test:
     name: Build app
@@ -41,11 +44,77 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew; chmod +x gradle/wrapper/gradle-wrapper.jar
 
-      - name: Build
-        run: ./gradlew clean test assembleDebug --full-stacktrace
+      - name: Build and test pull request
+        if: github.event_name == 'pull_request'
+        run: ./gradlew clean testDebugUnitTest assembleDebug --full-stacktrace
 
-      - name: Upload debug APK
+      - name: Restore release signing
+        if: github.event_name != 'pull_request'
+        env:
+          RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import base64
+          import binascii
+          import os
+          from pathlib import Path
+
+          names = (
+              "RELEASE_KEYSTORE_BASE64",
+              "RELEASE_STORE_PASSWORD",
+              "RELEASE_KEY_ALIAS",
+              "RELEASE_KEY_PASSWORD",
+          )
+          missing = [name for name in names if not os.environ.get(name)]
+          if missing:
+              raise SystemExit("Missing required signing secrets: " + ", ".join(missing))
+
+          try:
+              encoded = "".join(os.environ["RELEASE_KEYSTORE_BASE64"].split())
+              keystore = base64.b64decode(encoded, validate=True)
+          except (ValueError, binascii.Error):
+              raise SystemExit("RELEASE_KEYSTORE_BASE64 is not valid base64") from None
+          if not keystore:
+              raise SystemExit("RELEASE_KEYSTORE_BASE64 contains no keystore data")
+
+          def property_value(value):
+              # Java Properties.load(InputStream) accepts UTF-16 Unicode escapes.
+              encoded = value.encode("utf-16-be")
+              return "".join(
+                  "\\u" + encoded[index:index + 2].hex()
+                  for index in range(0, len(encoded), 2)
+              )
+
+          os.umask(0o077)
+          Path("signing").mkdir(exist_ok=True)
+          Path("signing/release.keystore").write_bytes(keystore)
+          properties = {
+              "storeFile": "signing/release.keystore",
+              "storePassword": os.environ["RELEASE_STORE_PASSWORD"],
+              "keyAlias": os.environ["RELEASE_KEY_ALIAS"],
+              "keyPassword": os.environ["RELEASE_KEY_PASSWORD"],
+          }
+          Path("keystore.properties").write_text(
+              "".join(f"{key}={property_value(value)}\n" for key, value in properties.items()),
+              encoding="ascii",
+          )
+          PY
+
+      - name: Build and test release
+        if: github.event_name != 'pull_request'
+        run: ./gradlew clean testReleaseUnitTest assembleRelease --full-stacktrace
+
+      - name: Upload release APK
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: CraftEcho-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          name: CraftEcho-release-apk
+          path: app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+
+      - name: Remove release signing files
+        if: always() && github.event_name != 'pull_request'
+        run: rm -f signing/release.keystore keystore.properties

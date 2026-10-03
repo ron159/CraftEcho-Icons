@@ -6,7 +6,34 @@ apply plugin: 'com.google.devtools.ksp'
 def keystorePropertiesFile = rootProject.file("keystore.properties")
 def keystoreProperties = new Properties()
 if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+    keystorePropertiesFile.withInputStream { keystoreProperties.load(it) }
+    ['storeFile', 'storePassword', 'keyAlias', 'keyPassword'].each { name ->
+        if (!keystoreProperties.getProperty(name)) {
+            throw new GradleException("Missing signing property: ${name}")
+        }
+    }
+}
+
+def verifyReleaseSigning = tasks.register('verifyReleaseSigning') {
+    doLast {
+        if (!keystorePropertiesFile.exists()) {
+            throw new GradleException('Release signing requires keystore.properties and the existing release key. Do not generate a replacement key for updates.')
+        }
+        def store = java.security.KeyStore.getInstance('PKCS12')
+        rootProject.file(keystoreProperties['storeFile']).withInputStream {
+            store.load(it, keystoreProperties['storePassword'].toCharArray())
+        }
+        def certificate = store.getCertificate(keystoreProperties['keyAlias'])
+        if (certificate == null || !store.isKeyEntry(keystoreProperties['keyAlias'])) {
+            throw new GradleException('The configured signing alias must contain the release private key and certificate.')
+        }
+        def fingerprint = java.security.MessageDigest.getInstance('SHA-256')
+                .digest(certificate.encoded).encodeHex().toString()
+        def expected = rootProject.file('signing-certificate.sha256').text.trim()
+        if (fingerprint != expected) {
+            throw new GradleException('Signing certificate mismatch: use the existing release key to preserve update compatibility.')
+        }
+    }
 }
 
 android {
@@ -104,6 +131,13 @@ android {
     buildFeatures {
         buildConfig = true
     }
+}
+
+tasks.matching {
+    it.name == 'preReleaseBuild' ||
+            (it.name == 'preDebugBuild' && keystorePropertiesFile.exists())
+}.configureEach {
+    dependsOn verifyReleaseSigning
 }
 
 dependencies {

@@ -44,11 +44,8 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew; chmod +x gradle/wrapper/gradle-wrapper.jar
 
-      - name: Build and test pull request
-        if: github.event_name == 'pull_request'
-        run: ./gradlew clean testDebugUnitTest assembleDebug --full-stacktrace
-
       - name: Restore release signing
+        id: signing
         if: github.event_name != 'pull_request'
         env:
           RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
@@ -69,6 +66,11 @@ jobs:
               "RELEASE_KEY_PASSWORD",
           )
           missing = [name for name in names if not os.environ.get(name)]
+          if len(missing) == len(names):
+              with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+                  output.write("available=false\n")
+              print("Release signing is not configured; CI will validate the debug build. Publish the locally signed release APK separately.")
+              raise SystemExit(0)
           if missing:
               raise SystemExit("Missing required signing secrets: " + ", ".join(missing))
 
@@ -101,14 +103,20 @@ jobs:
               "".join(f"{key}={property_value(value)}\n" for key, value in properties.items()),
               encoding="ascii",
           )
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write("available=true\n")
           PY
 
+      - name: Build and test without release signing
+        if: github.event_name == 'pull_request' || steps.signing.outputs.available == 'false'
+        run: ./gradlew clean testDebugUnitTest assembleDebug --full-stacktrace
+
       - name: Build and test release
-        if: github.event_name != 'pull_request'
+        if: steps.signing.outputs.available == 'true'
         run: ./gradlew clean testReleaseUnitTest assembleRelease --full-stacktrace
 
       - name: Upload release APK
-        if: github.event_name != 'pull_request'
+        if: steps.signing.outputs.available == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: CraftEcho-release-apk

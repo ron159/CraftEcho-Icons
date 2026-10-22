@@ -1,5 +1,7 @@
 # CraftEcho Icons
 
+[![最新正式版](https://img.shields.io/github/v/release/ron159/CraftEcho-Icons?display_name=tag&sort=date)](https://github.com/ron159/CraftEcho-Icons/releases/latest)
+
 > 匠心留下的回响。
 
 CraftEcho Icons 是一套面向 Android 启动器的非官方图标包，整理并适配了

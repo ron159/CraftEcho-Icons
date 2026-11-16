@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.21" />
+    <item text="Added icons for T3 Code, Dawarich, and Mika" />
+    <item text="Redrawn Microsoft Copilot, Gemini, and Microsoft Outlook icons" />
+    <item text="Updated Microsoft Copilot (Office Hub) launcher mapping" />
     <version title="v1.0.20" />
     <item text="Added icons for PikPak, Binance, Patreon, NordVPN, Blackmagic Camera, Perplexity, MEGA, Klook, HelloTalk, Tor Browser, and Yandex Browser" />
     <item text="Release builds now use a persistent verified signing certificate for future app updates" />

@@ -3326,8 +3326,8 @@
     <!--微博国际版-->
     <item component="ComponentInfo{com.weico.international/com.weico.international.activity.LogoActivity}" drawable="iconc453fe19" />
 
-    <!--Office-->
-    <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="iconea478e2f" />
+    <!--Microsoft Copilot (Microsoft 365)-->
+    <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="icon_microsoft_copilot" />
 
     <!--Office-->
     <item component="ComponentInfo{com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="iconea478e2f" />
@@ -8584,4 +8584,17 @@
 
     <!--Yandex Browser-->
     <item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="icon_yandex_browser" />
+
+    <!--T3 Code-->
+    <item component="ComponentInfo{com.t3tools.t3code/com.t3tools.t3code.MainActivity}" drawable="icon_t3_code" />
+    <item component="ComponentInfo{com.t3tools.t3code.preview/com.t3tools.t3code.preview.MainActivity}" drawable="icon_t3_code" />
+    <item component="ComponentInfo{com.t3tools.t3code.dev/com.t3tools.t3code.dev.MainActivity}" drawable="icon_t3_code" />
+    <item component="ComponentInfo{com.t3tools.t3code.native.experimental/com.t3tools.t3code.native.experimental.MainActivity}" drawable="icon_t3_code" />
+
+    <!--Dawarich-->
+    <item component="ComponentInfo{com.sunstep.travel/com.sunstep.travel.MainActivity}" drawable="icon_dawarich" />
+    <item component="ComponentInfo{com.sunstep.travel.foss/com.sunstep.travel.MainActivity}" drawable="icon_dawarich" />
+
+    <!--Mika-->
+    <item component="ComponentInfo{com.wangzan101.mika/com.wangzan101.mika.ui.MainActivity}" drawable="icon_mika" />
 </resources>

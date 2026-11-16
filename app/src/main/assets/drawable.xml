@@ -5841,4 +5841,7 @@
     <item name="HelloTalk" drawable="icon_hellotalk" />
     <item name="Tor Browser" drawable="icon_tor_browser" />
     <item name="Yandex Browser" drawable="icon_yandex_browser" />
+    <item name="T3 Code" drawable="icon_t3_code" />
+    <item name="Dawarich" drawable="icon_dawarich" />
+    <item name="Mika" drawable="icon_mika" />
 </resources>

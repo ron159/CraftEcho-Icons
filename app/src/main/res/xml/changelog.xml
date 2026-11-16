@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.23" />
+    <item text="Added icon for 极简汇率 (xCurrency)" />
+    <item text="Redrawn FlClash and LocalSend icons" />
+    <item text="Adjusted 最会买 (Zuihuimai) icon scale" />
     <version title="v1.0.22" />
     <item text="Added icon for 最会买 (Zuihuimai)" />
     <item text="Adjusted Microsoft Outlook icon scale to match Gmail" />

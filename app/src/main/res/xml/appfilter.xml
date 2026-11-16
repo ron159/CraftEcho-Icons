@@ -8594,7 +8594,11 @@
     <!--Dawarich-->
     <item component="ComponentInfo{com.sunstep.travel/com.sunstep.travel.MainActivity}" drawable="icon_dawarich" />
     <item component="ComponentInfo{com.sunstep.travel.foss/com.sunstep.travel.MainActivity}" drawable="icon_dawarich" />
+    <item component="ComponentInfo{com.sunstep.dawarich/com.sunstep.dawarich.MainActivity}" drawable="icon_dawarich" />
 
     <!--Mika-->
     <item component="ComponentInfo{com.wangzan101.mika/com.wangzan101.mika.ui.MainActivity}" drawable="icon_mika" />
+
+    <!--最会买-->
+    <item component="ComponentInfo{com.ruanmei.zuihuimai/com.ruanmei.zuihuimai.activity.SplashActivity}" drawable="icon_zuihuimai" />
 </resources>

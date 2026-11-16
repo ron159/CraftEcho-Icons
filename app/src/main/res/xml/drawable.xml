@@ -5844,4 +5844,5 @@
     <item name="T3 Code" drawable="icon_t3_code" />
     <item name="Dawarich" drawable="icon_dawarich" />
     <item name="Mika" drawable="icon_mika" />
+    <item name="最会买" drawable="icon_zuihuimai" />
 </resources>

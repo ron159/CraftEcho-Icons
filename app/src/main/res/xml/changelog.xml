@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.22" />
+    <item text="Added icon for 最会买 (Zuihuimai)" />
+    <item text="Adjusted Microsoft Outlook icon scale to match Gmail" />
+    <item text="Added Dawarich community Play package (com.sunstep.dawarich) mapping" />
     <version title="v1.0.21" />
     <item text="Added icons for T3 Code, Dawarich, and Mika" />
     <item text="Redrawn Microsoft Copilot, Gemini, and Microsoft Outlook icons" />

@@ -5846,4 +5846,5 @@
     <item name="Mika" drawable="icon_mika" />
     <item name="最会买" drawable="icon_zuihuimai" />
     <item name="极简汇率" drawable="icon_xcurrency" />
+    <item name="Orca" drawable="icon_orca" />
 </resources>

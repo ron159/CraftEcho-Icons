@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.25" />
+    <item text="Added Android launcher component mapping for Orca (dev.orca.app/dev.orca.app.MainActivity)" />
     <version title="v1.0.24" />
     <item text="Added icon for Orca (orca.dev)" />
     <version title="v1.0.23" />

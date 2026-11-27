@@ -8604,4 +8604,7 @@
 
     <!--极简汇率-->
     <item component="ComponentInfo{com.tratao.xcurrency/com.tratao.xcurrency.SplashAdActivity}" drawable="icon_xcurrency" />
+
+    <!--Orca-->
+    <item component="ComponentInfo{dev.orca.app/dev.orca.app.MainActivity}" drawable="icon_orca" />
 </resources>
